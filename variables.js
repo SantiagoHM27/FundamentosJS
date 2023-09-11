@@ -4,10 +4,10 @@
     // de ES6 en adelante
     // const y left
 
-    //const declara constantes, no permite reasignación
-    //Al crearla debe inicializarse
+    // const declara constantes, no permite reasignación
+    // Al crearla debe inicializarse
     const PI = 3.14;
-    //PI = 3.28;
+    // PI = 3.28;
 
     // let declara variables
     // permite reasignación
