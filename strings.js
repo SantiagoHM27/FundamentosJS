@@ -1,6 +1,6 @@
     // Strings en JavaScript
 
-    let miString ="Este es uN TextO " + 'de PrUeBa'
+    let miString ="Este es uN TextO  " + 'de PrUeBa '
     console.log(miString);
 
     console.log(miString.charAt(5));
