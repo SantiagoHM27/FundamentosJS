@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Javascript</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(55, 17, 90);
+            display: grid;
+            place-items: center;
+            text-align: center;
+        }
+        .container {
+            width: 100%;
+
+        }
+        .container .img-thumbnail {
+            width: 200px;
+        }
+        .container .img-thumbnail:hover {
+            width: 220px;
+        }
+        .modal-body img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img src="./arcane-vi-lol-skin-8k-wallpaper-371d.jpg" alt="" class="img-thumbnail">
+        <img src="./firecracker-vayne-lol-skin-splash-art-8k-wallpaper-uhdpaper.com-6541j.jpg" alt="" class="img-thumbnail">
+        <img src="./high-noon-irelia-splash-art-uhdpaper.com-8K-7.2019.jpg" alt="" class="img-thumbnail">
+        <img src="./irelia-divine-sword-lol-wild-rift-splash-art-8k-wallpaper-uhdpaper.com-2831e.jpg" alt="" class="img-thumbnail">
+    </div>
+    <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog modal-dialog- modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./galeria.js"></script>
+   
+</body>
+</html>
